@@ -53,6 +53,7 @@ async function getQuoteFromApi() {
             errorCounter++;
         }
     }
+    errorCounter = 0;
 }
 
 
